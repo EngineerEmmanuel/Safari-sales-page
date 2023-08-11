@@ -1,0 +1,141 @@
+{
+    "Home": "Startseite",
+    "About us": "Über uns",
+    "Book Trip Now": "Jetzt Reise buchen",
+
+
+    "Hero h1":"Das ultimative Paradies, gemacht ",
+    "Hero br":"nur für dich, erwartet dich",
+    "Hero sub": "Technikbegeisterte",
+    "Hero p":"Möchtest du Einfluss auf das afrikanische und kenianische Wohl nehmen?",
+    "Hero p br":"Einkommensgemeinschaften und sie aus der Armut herausholen?",
+
+
+    "Techies":"Technikbegeisterte",
+    "Researcher":"Forscher?",
+    "Developer":"Entwickler?",
+    "Designer":" Designer?",
+    "Tech Enthusiast":"Technikbegeisterter?",
+
+
+    "Help":"Helfen Sie dabei, einen neuen Technikbegeisterten auf Ihrer Safari zu fördern. Verpassen Sie nicht die Gelegenheit, zu sozialen Projekten in einkommensschwachen Regionen in Kenia und Afrika beizutragen",
+    "Networking":"Netzwerken",
+
+    "At":"Zu einem unschlagbaren und freundlichen Preis erhalten Sie unsere Touren durch atemberaubende Landschaften! Erstreckend vom Großen Afrikanischen Grabenbruch bis zur Seeregion, zu den Küstensandstränden und den malerischen Ausblicken Kenias!",
+
+    "Mentors":"Mentoren",
+
+    "Community h2":"DER GEMEINSCHAFT BEITRETEN",
+    "Community f p":"Helfen Sie bei der Herstellung eines",
+    "Community f span":"neuer Technikbegeisterter",
+    "Community s p":"durch deine Safari. Verpasse nicht diese Gelegenheit, um",
+    "Communtiy f br":"zu sozialen Projekten in einkommensschwachen Gemeinden beitragen in",
+    "Community s span":"Kenia und Afrika",
+
+    "Who":"Wer bist du?",
+    "Who p":"Bist du im Bereich Technologie tätig? Ein Experte in der Technologiebranche oder bist du ein Enthusiast mit Leidenschaft für Erkundung, Unternehmertum und Netzwerken?",
+
+
+    "Fascinating f p":"Tritt einer exklusiven Technikgemeinschaft bei und mach mit uns eine Tour",
+    "Fascinating s p":"Faszinierende kulturgetränkte Erkundung, die lokale Erfahrungen hervorhebt, während du einen Technikbegeisterten durch die Erlöse der Safari, Sponsoring und Spenden unterstützt",
+
+
+    "Book your trip now":"BUCHEN SIE IHRE REISE JETZT!",
+    "Travel Itineraries":"Reisepläne",
+    "Day 1 p":" Ankunft und Stadtrundfahrt in Nairobi",
+    "Day 2 p":"Gemeindebesuche und Nairobi-Nationalpark",
+    "Day 3 p":"Berg Kenia Nanyuki",
+    "Day 4 p":"Berg Kenia Wanderung und Wildtier-Tour",
+    "Day 5 p":"Abholung in der Maasai Mara",
+    "Day 6 p":"Wildreservat Maasai Mara",
+    "Day 7 p":"Ruhetag in Rusinga",
+    "Day 8 p":"Besuch des Viktoriasees",
+    "Day 9 p":"Stadt Kisumu",
+    "Day 10 p":" Diani-Mombasa",
+    "Day 11 p":"Die Festung Jesus",
+    "Day 12 p":"Heiliger Wald Kaya und Kinodo",
+    "Day 13 p":"Glasboden-Bootstouren-Diani",
+    "Day 14 p":"Zurücksetzen und Abreise",
+
+
+    "What to bring with you":"Was Sie mitbringen sollten",
+    "What to f li":"Flugtickets nach und von Kenia (Ankunft am internationalen Flughafen Jomo Kenyatta in Nairobi und Abreise am internationalen Flughafen Moi in Mombasa)",
+    "What to s li":"Alle Eintrittsgebühren für Wildparks und Flughafentransfergebühren",
+    "What to t li":"Persönliches Taschengeld, Handtücher, Toilettenpapier, Taschenlampe, Wasser, Insektenschutzmittel und persönliche Gegenstände",
+    "What to fo li":"Eine Garnitur warmer Kleidung und mehrere leichte Kleidungsstücke für die heißen Tage sowie Trinkgeld, wenn möglich",
+    "What to fi li":"Flughafentransfergebühren nach Mombasa vom internationalen Flughafen Kisumu (Können weniger als 40 Euro betragen), wenn Buchung und Zahlung im Voraus erfolgen",
+    "Book a Call":"Einen Anruf buchen",
+
+
+    "Pay Now":"Jetzt bezahlen",
+    "Pay 150 Euros":"150 Euro bezahlen",
+    "Proceeds f p":"Die Erlöse aus deiner Safari helfen armen Jugendlichen in Afrika, zu erhalten",
+    "Proceeds s p":"aus der Armut herauszukommen und einen anständigen Lebensunterhalt gemäß den UN-SDGs 1 und 8 zu verdienen",
+
+    "Payment card f p":"pro Person für 14 Tage",
+    "Payment card s p":"Sie zahlen jetzt nur 150 EURO und den Rest bei der Ankunft in Kenia",
+    "Accommodation":"Unterkunft:",
+    "Budget":"Günstige Unterkunft in Nairobi, Kisumu, Nanyuki, Eldoret, Rusinga, Maasai Mara und Diani",
+    "Meals":"Mahlzeiten: Frühstück, Mittagessen und Abendessen (Buffet)",
+    "Transport":"Transport:",
+    "Shared":"Geteilter Transport zu und von Projektstandorten sowie zu einigen ausgewählten Touristenattraktionen",
+    "Contribution":"Beitrag zum Kujia Retink-Stipendium. Nachhaltige Spende an Kujia Kenya (NGO) von",
+    "one-off":"130 einmalig",
+    "enables":"150 Euro ermöglicht Retink Media, benachteiligte Jugendliche in Kenia zu schulen, damit sie digitale Produkte wiederverkaufen können, um ihren Lebensunterhalt und ihre Familien zu unterstützen",
+    "climate":"0,1 % Ihrer Erlöse tragen auch zur Bekämpfung des Klimawandels bei und retten unseren Planeten",
+
+
+    "Price break down":"Preisaufschlüsselung ",
+    "When to pay":"Wann zu zahlen ",
+    "pppd":"*pppd - pro Person pro Tag ",
+    "Slider1 sub1 title":"Unterkunft",
+    "Slider1 sub1 para":"Unterkunft im Budget, Unterkunft in Nairobi, Nanyuki, Rusinga, Eldoret, Kisumu, Maasai Mara und Diani",
+    "Slider1 sub1 price":"60 pro Person pro Tag",
+    
+    "Slider1 sub2 title":"Mahlzeiten",
+    "Slider1 sub2 para":"Frühstück, Mittagessen und Abendessen (Buffet)",
+    "Slider1 sub2 price":"15 pro Person pro Tag ",
+
+    "Slider1 sub3 title":"Transport",
+    "Slider1 sub3 para":"Zu und von Projektstandorten sowie zu einigen ausgewählten Touristenattraktionen",
+    "Slider1 sub3 price":"10 pro Person pro Tag",
+
+    "Slider1 sub4 title":"Kujia Retink Stipendium ",
+    "Slider1 sub4 para":"Beiträge zum Kujia Retink-Stipendium ",
+    "Slider1 sub4 price":"150 einmalig ",
+
+    "Slider1 sub5 title":"Kujia Kenya (Nichtregierungsorganisation)",
+    "Slider1 sub5 para":"Für die Nachhaltigkeit der Kujia S4D-Initiative in Kenia",
+    "Slider1 sub5 price":"130 einmalig  ",
+
+    "Slider1 sub6 title":"2 Flugtickets in Kenia",
+    "Slider1 sub6 para":"Während in Kenia an jedem Tag",
+    "Slider1 sub6 price":"240",
+
+
+
+    "Slider2 sub1 title":"Unterkunft ",
+    "Slider2 sub1 para":"Während in Kenia an jedem Tag",
+    "Slider2 sub1 price":"60 pro Person pro Tag",
+
+    "Slider2 sub2 title":"Mahlzeiten ",
+    "Slider2 sub2 para":"Während in Kenia an jedem Tag",
+    "Slider2 sub2 price":"15 pro Person pro Tag ",
+
+    "Slider2 sub3 title":"Transport ",
+    "Slider2 sub3 para":"Während in Kenia an jedem Tag",
+    "Slider2 sub3 price":"10 pro Person pro Tag",
+
+    "Slider2 sub4 title":"Kujia Retink Stipendium ",
+    "Slider2 sub4 para":"Bei Buchung",
+    "Slider2 sub4 price":"150 einmalig",
+
+    "Slider2 sub5 title":"Kujia Kenya (NGO) ",
+    "Slider2 sub5 para":" Am letzten Tag der Safari",
+    "Slider2 sub5 price":"110 einmalig",
+
+    "Slider2 sub6 title":"2 Flugtickets in Kenia ",
+    "Slider2 sub6 para":"Während in Kenia an jedem Tag",
+    "Slider2 sub6 price":"240"
+
+  }

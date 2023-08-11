@@ -1,13 +1,1003 @@
-body {
+*{
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  font-family: "Open Sans";
+}
+:where(a, a:active, a:visited){
+  text-decoration: none;
+  color: black;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:where(ul){
+  display: flex;
+  list-style-type: none;
+}
+:where(button){
+  cursor: pointer;
+}
+
+/* mobile hero secttion */
+.mobile-hero-section-con{
+  display: none;
+}
+.mobile-hero-grids{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  margin-top: 4rem;
+  gap: 2rem;
+}
+.mobile-grid-element-left{
+  place-self: flex-end;
+}
+.mobile-absolute-elements{
+  position: relative;
+  margin-bottom: 5rem;
+}
+.element-1{
+  background-color: #323B4B;
+  width: 9rem;
+  padding: 0.4rem;
+  text-align: center;
+  color: white;
+  border-radius: 20px;
+  position: absolute;
+  transform: rotate(-15deg);
+}
+.element-2{
+  background-color: rgb(128, 24, 128);
+  width: 9rem;
+  padding: 0.4rem;
+  text-align: center;
+  color: white;
+  border-radius: 20px;
+  position: absolute;
+  left: 5rem;
+  top: 2.6rem;
+}
+.techies-con{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+.techies-image-con-mobile img{
+    width: 2rem;
+    margin-left: -1rem;
+    border-radius: 10px;
+}
+.image-block-gen-con > img{
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 1rem;
+}
+.mobile-abolute-elements-right{
+  position: relative;
+  width: 100%;
+  height: 10rem;
+}
+.element-3{
+  position: absolute;
+  background-color: red;
+  left: 14rem;
+  top: 4rem;
+  transform: rotate(30deg);
+  width: 9rem;
+  padding: 0.4rem;
+  border-radius: 20px;
+  text-align: center;
+  color: white;
+
+}
+.element-4{
+  text-align: center;
+  position: absolute;
+  top: 6.5rem;
+  width: 9rem;
+  padding: 0.4rem;
+  background-color: rgb(148, 7, 148);
+  border-radius: 20px;
+  color: white;
+  transform: rotate(-8deg);
+  left: 3rem;
+}
+.mobile-center-text-only-grid-con{
+  width: 100%;
+  background-color: red;
+  border-radius: 10px;
+  text-align: center;
+  padding: 0.3rem;
+  height: 14rem;
+  margin: 1rem 0;
+  color: white;
+}
+.mobile-center-text-only-grid-con > p{
+  margin-top: 2rem;
+}
+
+/* MOBILE MENU */
+.mobile-icon{
+  display: none;
+  font-size: 1.5rem;
+}
+.mobile-menu{
+  width: 100%;
+}
+.mobile-menu >ul{
+  display: flex;
+  flex-direction: column;
+  padding-left: 1rem;
+}
+.mobile-menu >ul li{
+  padding-top: 1rem;
+}
+.mobile-menu > button, .nav-mobile-btn > button{
+  padding: 0.5rem 0;
+  width: 8rem;
+  border: none;
+  border-radius: 20px;
+  background-color: #525de0;
+  color: white;
+  margin: 1rem;
+  
+}
+/* navigation */
+nav{
+  box-shadow: 20px 0px 50px rgb(207, 204, 204);
+
+}
+.nav-con{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color:white;
+  padding: 1rem;
+}
+.nav-con >ul li{
+  padding-left: 1rem;
+}
+.nav-con >button{
+  padding: 0.9rem 0;
+  width: 8rem;
+  border: none;
+  border-radius: 30px;
+  background-color: rgb(146, 10, 146);
+  color: white;
+  transition: 0.3s ease-in-out;
+}
+.nav-con >button a, a:hover, a:visited{
+  color: white;
+}
+.nav-con >button:hover{
+  background-color: #6d79f7;
+  transition: 0.3s ease-in-out;
+}
+.logo-con > img{
+  width: 6rem;
+}
+/* HERO SECTION */
+.hero-section{
+  height: 100vh;
+  padding: 2rem;
+  margin-bottom: 5rem;
+}
+.hero-text-con >h1{
+  font-size: 4rem;
+  margin-bottom: 1.5rem;
+}
+.hero-text-con > p{
+  font-size: 1.5rem;
+}
+.hero-techies{
+  background-color:red;
+  padding: 0.5rem;
+  border-radius: 50px;
+  color: white;
+  /* width: 7rem; */
+}
+.hero-text-con{
+  text-align: center;
+  margin-top: 2.5rem;
+}
+.grid-gen-con{
+  display: grid;
+  grid-template-columns: auto 40% auto;
+  gap: 1.5rem;
+  margin-top: 2rem;
+  align-items: center;
+}
+
+.center-grid-element{
+  background-color: green;
+  padding: 0.5rem;
+}
+
+.techies-con{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4;
+  background-color: #FAFBFC;
+  padding: 0.5rem;
+  border-radius: 10px;
+  border: 1px solid rgb(167, 164, 164);
+}
+.techies-image-con img{
+  width: 3rem;
+  margin-left: -1rem;
+  border-radius: 100px;
+
+}
+.left-grid-element, .right-grid-element{
+  align-self: flex-end;
+}
+.left-grid-element >img{
+  width:100%;
+  border-radius: 10px;
+  margin-top: 1rem;
+}
+
+.right-grid-element >img{
+  width: 100%;
+  border-radius: 10px;
+}
+.grid-center-grids{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  align-items: center;
+  gap: 0.5rem;
+}
+.center-text-only-grid-con{
+  padding: 0.5rem;
+  width: 100%;
+  background-color: red;
+  border-radius: 10px;
+  text-align: center;
+  height: 100%;
+  margin-top: 0.8rem;
+}
+.center-text-only-grid-con >p{
+  padding-top: 2.3rem;
+  color: white;
+}
+.center-grid-elements{
+  padding: 0.5rem;
+ 
+}
+.center-grid-element{
+  background-color: green;
+  padding: 0.5rem;
+}
+.center-sub-parent-con{
+  height: 10rem;
+  position: relative;
+}
+.network-center-grid-con{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #323B4B;
+  padding: 0.2rem;
+  border-radius: 10px;
+  color: white;
+}
+.network-image-con img{
+  width: 2.5rem;
+  border-radius: 100px;
+  margin-left: -1rem;
+}
+.text-center-grid{
+  width: 100%;
+  height: 10rem;
+  background-color: #f6f9fd;
+  text-align: center;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  border-radius: 10px;
+  border: 1px solid #b8bbbd;
+}
+
+/* ABSOLUTE ELEMENTS */
+.researcher-con, .designer-con,.developer-con,.tech-enthusiast{
+  width: 9rem;
+  padding: 0.4rem;
+  text-align: center;
+  color: white;
+  border-radius: 20px;
+  position: absolute;
+}
+.researcher-con{
+  background-color: red;
+  transform: rotate(-25deg);
+  top: 2.5rem;
+  left: 1rem;
+
+}
+.developer-con{
+  top: 6rem;
+  left: 7rem;
+  background-color: purple;
+  
+}
+.designer-con{
+  background-color: red;
+  left: 18rem;
+  top: 4rem;
+  transform: rotate(30deg);
+  
+}
+.tech-enthusiast{
+  left: 27rem;
+  top: 5rem;
+  background-color: purple;
+  transform: rotate(-20deg);
+ 
+
+}
+
+/* COMMUNITY */
+.community-section{
+  background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url("https://media.istockphoto.com/id/1303740472/photo/group-of-maasai-warriors-going-back-to-village-kenya-africa.jpg?s=612x612&w=0&k=20&c=d5CxU7kzE8-y0psHSnZtZHEG49Hbdt3j1k73KCj-HN4=");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  padding-bottom: 1rem;
+  margin-top: 2rem;
+}
+.join-text{
+  color: white;
+  font-size: 3rem;
+}
+.text-grid-con{
+  padding-left: 2rem;
+  margin-top: 4rem;
+}
+.text-grid-con >p{
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+}
+.text-grid-con >p span{
+  color: red;
+  
+}
+.grid-con{
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.who-are-you-grid-element{
+  width: 25rem;
+  height: 20rem;
+  background-color: purple;
+  padding: 1rem;
+  border-radius: 10px;
+  
+}
+.who-are-you-grid-element >h2{
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+.grid-element-imgs-1, .grid-element-imgs-2,.grid-element-imgs-3, .grid-element-imgs-4{
+  width: 15rem;
+  height: 20rem;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+.grid-element-imgs-1{
+  background-image: url("https://media.istockphoto.com/id/1182745546/photo/hispanic-female-studying-on-laptop.jpg?s=612x612&w=0&k=20&c=G6Nhlxp3FQE2OdnzJtHoK1dFBqexjPKPIBQVFk0evZY=");
+  
+}
+.grid-element1-btn, .grid-element2-btn, .grid-element3-btn, .grid-element4-btn{
+  background-color:red;
+  margin-top:17rem;
+  margin-left:4rem;
+  padding:0.5rem 0;
+  width:8rem;
+  color:white;
+  border-radius:20px;
+  border:none;
+  display: none;
+
+}
+.grid-element1-btn a, a:active, a:visited, .grid-element3-btn a, a:active, a:visited{
+  color: white;
+}
+.grid-element2-btn, .grid-element4-btn{
+  background-color: rgb(128, 11, 128);
+}
+.grid-element2-btn a, .grid-element4-btn a{
+  color: white;
+}
+.grid-element-imgs-2{
+  background-image: url("https://media.istockphoto.com/id/1432260067/photo/a-cheerful-man-sits-at-a-conference-table-across-from-his-two-female-colleagues-and-learns-to.jpg?s=612x612&w=0&k=20&c=-R9hSEjFjK1mQVglesouou3Wsq2qZQ5tsP2quKkYnRY=");
+}
+.grid-element-imgs-3{
+  background-image: url("https://media.istockphoto.com/id/1469706271/photo/code-asian-man-and-reflection-in-glasses-focus-and-programming-for-cyber-security-hacking-and.jpg?s=612x612&w=0&k=20&c=PJhRzTJ6ouO_8ZAjU8vQ1kf_u6l6B1qdE7Q8R5F6bts=");
+}
+.grid-element-imgs-4{
+  background-image: url("https://media.istockphoto.com/id/1366415101/photo/japanese-woman-helping-her-colleague.jpg?s=612x612&w=0&k=20&c=rPkArQlsqmDE4GdZT5NiCW8BIKjNxR_636u6WS3wOxw=");
+}
+.label{
+  position: absolute;
+  top: 3px;
+  left: 0;
+  padding: 0.7rem ;
+  width: auto;
+  background-color: red;
+  transform: rotate(28deg);
+  border-radius: 10px;
+}
+
+.label-2{
+  background-color: purple;
+}
+.label-3{
+  background-color: red;
+  top: 10px;
+}
+.label-4{
+  top: 16px;
+  background-color: purple;
+  
+}
+
+.community-section-btn-con{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+.community-section-btn-con > button{
+  width: 12rem;
+  padding: 0.5rem 0;
+  background-color: #1f4fdf;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  margin: 0 auto;
+  display: none;
+}
+/* PRICING */
+.pricing-section{
+  padding: 2rem;
+  background-color: #FFFFFF;
+}
+.arrow-bar-people{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  background-color: #f6f9fd;
+  width:45rem;
+  border-radius: 10px;
+  padding: 0.5rem;
+  border: 1px solid rgb(128, 124, 124);
+}
+.arrow-con i{
+  font-size: 2rem;
+}
+.pic-con{
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.pic-con img{
+  width: 3rem;
+  border-radius: 100px;
+  margin-left: -15px;
+}
+.pricing-section-text-con{
+  width: 40rem;
+  margin-top: 1rem;
+}
+/* MAIN PRICING CON */
+.pricing-section{
+  margin-top: 4rem;
+}
+.copy4{
+  text-align: center;
+}
+.pricing-cons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 4rem;
+  
+}
+.pricing-1{
+  width: 30rem;
+  height: 38rem;
+  background-color: #323B4B;
+  border-radius: 10px;
+  padding: 1rem;
+  color: white;
+  overflow-y: scroll;
+}
+.pricing-1 >h3{
+  margin-top: 1rem;
+}
+.normal-con{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding-bottom: 1rem;
+}
+.colored-circled{
+  padding: 0.3rem;
+  width: 5rem;
+  height: auto;
+  border-radius: 100%;
+
+  
+}
+
+.colored-circled >img{
+  width: 100%;
+  border-radius: 100px;
+  
+}
+.margins{
+  margin-top: 1rem;
+}
+
+.pricing-1 >button{
+  width: 100%;
+  padding: 0.5rem 0;
+  margin-top: 1.5rem;
+  border-radius: 10px;
+  border: none;
+  font-size: 1rem;
+  background-color: red;
+  color: white;
+}
+.pricing-1 >button a, a:active, a:visited{
+  color: white;
+  font-weight: 800;
+}
+.accommodation-text-con, .transport, .contribution{
+  margin-top: 1.5rem;
+}
+.accommodation-text-con >h3, .transport >h3{
+  margin-bottom: 1rem;
+}
+
+
+.pricing-2{
+  width: 25rem;
+  height: 38rem;
+  background-color: #FAFBFC;
+  border-radius: 10px;
+  padding: 1rem;
+  overflow-y: scroll;
+}
+.pricing-1::-webkit-scrollbar {
+  background-color: gray;
+}
+
+.pricing-1::-webkit-scrollbar-thumb {
+  background-color: black;
+  border-radius: 10px;
+  height: 1rem;
+}
+.pricing-2 >h3{
+  margin-top: 1rem;
+}
+.normal-con-2{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding-bottom: 1rem;
+}
+.colored-circled-2{
+  padding: 0.3rem;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 100px;
+  background: radial-gradient(circle at 30% 107%, #FFD45C 0%, #FFD45C 25%, #FFD45C 50%, #FFAF5C 50%, #FFAF5C 50%);
+  transform: rotate(-118deg);
+
+  
+}
+.colored-circle-small-2{
+  background-color: white;
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius: 100px;
+  
+}
+.pricing-2 >button{
+  width: 100%;
+  padding: 0.5rem 0;
+  margin-top: 1.5rem;
+  border-radius: 10px;
+  border: none;
+  font-size: 1rem;
+  background-color: red;
+  color: white;
+  
+  
+}
+.accommodation-text-con-2, .transport-2, .contribution-2, .additional-benefits-2,.meal, .additional-benefits, .contribution-3{
+  margin-top: 1.5rem;
+}
+.accommodation-text-con-2 >h3, .transport-2 >h3{
+  margin-bottom: 1rem;
+}
+.pricing-3{
+  width: 25rem;
+  height: 38rem;
+  background-color: #FAFBFC;
+  border-radius: 10px;
+  padding: 1rem;
+  overflow-y: scroll;
+}
+.pricing-3 >h3{
+  margin-top: 1rem;
+}
+.normal-con-3{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding-bottom: 1rem;
+}
+.colored-circled-3{
+  padding: 0.3rem;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 100px;
+  background-color: #F178B6;
+
+  
+}
+.colored-circle-small-3{
+  background-color: white;
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius: 100px;
+  
+}
+
+
+.pricing-3 >button{
+  width: 100%;
+  padding: 0.5rem 0;
+  margin-top: 1.5rem;
+  border-radius: 10px;
+  border: none;
+  font-size: 1rem;
+  background-color: rgb(177, 4, 4);
+  color: white ;
+  
+  
+}
+.pricing-3::-webkit-scrollbar {
+  background-color: gray;
+}
+
+.pricing-3::-webkit-scrollbar-thumb {
+  background: #323B4B; 
+  border-radius: 10px;
+  height: 1rem;
+}
+
+/* FASCINATING SECTION */
+.fascinating-gen-con{
+  background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url("https://media.istockphoto.com/id/1303740472/photo/group-of-maasai-warriors-going-back-to-village-kenya-africa.jpg?s=612x612&w=0&k=20&c=d5CxU7kzE8-y0psHSnZtZHEG49Hbdt3j1k73KCj-HN4=");
+  padding: 2rem;
+  margin-top: 4rem;
+}
+.fascinating-bar-people{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  background-color: black;
+  width:40rem;
+  border-radius: 10px;
+  padding: 0.5rem;
+  border: 1px solid white;
+  color: white;
+
+}
+.fascinating-arrow-con i{
+  font-size: 2rem;
+}
+.fascinating-pic-con{
+  display: flex;
+  flex-wrap: nowrap;
+}
+.fascinating-pic-con img{
+  width: 3rem;
+  border-radius: 100px;
+  margin-left: -15px;
+}
+.fascinating-section-text-con{
+  width: 40rem;
+  margin-top: 1rem;
+  color: white;
+}
+/* SLIDING */
+.sliding-con{
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  overflow-x: scroll;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+.sliding-con img{
+  margin-bottom: 2rem;
+}
+.sliding-con::-webkit-scrollbar {
+  background-color: gray;
+}
+
+.sliding-con::-webkit-scrollbar-thumb {
+  background: #323B4B; 
+  border-radius: 10px;
+}
+/* TRAVEL */
+.travel-section{
+  padding: 2rem;
+}
+.travel-section > marquee h2{
+  font-size: 4rem;
+  font-weight: 400;
+  color: red;
+}
+.travel-cons-gen{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 3rem;
+  flex-wrap: wrap;
+}
+.travel-con1{
+  width: 40rem;
+  height: 33rem;
+  background-color: #9336B4;
+  border-radius: 10px;
+  padding: 0.5rem;
+  overflow-y: scroll;
+  color: white;
+  
+}
+.travel-con2{
+  width: 34rem;
+  /* height: 33rem; */
+  height: 33rem;
+  background-color: #323B4B;
+  border-radius: 10px;
+  color: white;
+  padding: 1rem;
+  overflow-y: scroll;
+}
+.travel-con2 > h2{
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+.travel-con2 > ul{
+  display: flex;
+  flex-direction: column;
+  list-style-type: circle;
+  padding-left: 1rem;
+  
+}
+.travel-con2 >button{
+  width: 100%;
+  padding: 0.8rem 0;
+  background-color: red;
+  transition: 0.5s;
+  color: white;
+  margin-top: 2.5rem;
+  border-radius: 20px;
+  border: none;
+
+}
+.travel-con2 >button a, .travel-con2 >button a:visited{
+  color: white;
+  text-decoration: none;
+  font-weight: 800;
+}
+.travel-con2 >button:hover{
+  background-color: #1f4fdf;
+  transition: 0.5s;
+}
+.travel-con2 > ul li{
+  padding-top:1.5rem;
+}
+
+.travel-con1 >h2{
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.day-1{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+
+}
+.day{
+  background-color: purple;
+  width: 3.5rem;
+  height: 3.5rem;
+  padding: 0.2rem;
+  border-radius: 100%;
+  display: grid;
+  place-items: center;
+  justify-content: center;
+}
+.day >p{
+  text-align: center;
+  
+}
+
+.travel-con1-flex{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+/* SLIDER SECTION */
+.break-down-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4rem 0;
+}
+.slider-1-con{
+  background: url("https://media.istockphoto.com/id/1324485884/photo/cute-lion-family.jpg?s=612x612&w=0&k=20&c=QqRN63XYju8cNbmIoQZaLVoPxGg6g2d7vFfq4ylBY5E=");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 1rem;
+}
+.slider-2-con{
+  background:  url("https://media.istockphoto.com/id/1212707783/photo/woman-on-an-african-safari-travels-by-car-with-an-open-roof-and-watching-wild-zebras-and.jpg?s=612x612&w=0&k=20&c=coa4SAbS17EjjSeSXPFuX53-s7nGvlDTlZWGFMnBVy0=");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 1rem;
+}
+.slider-1-con > h2, .slider-2-con >h2{
+  text-align: center;
+  color: white;
+}
+.slider-1-con > h4, .slider-2-con >h4{
+  padding: 1rem;
+  color: white;
+}
+.slider1-grid-con, .slider-2-grid-con{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 2rem;
+}
+
+.slider1-elements, .slider-2-elements{
+  width: 23rem;
+  height: 14rem;
+  flex-wrap: wrap;
+  background-color:purple;
+  overflow: hidden;
+  padding: 0.5rem;
+  border-radius: 2px;
+  color: white;
+  
+}
+
+.slider1-elements > h2, .slider2-elements > h2{
+  margin-bottom: 1rem;
+}
+.slider1-para{
+  word-wrap: break-word;
+}
+.price{
+  font-size: 2rem;
+}
+.prev-btn{
+  background-color: red;
+  padding: 0.5rem;
+  width: 2rem;
+  border-radius: 100px;
+  border: none;
+  color: white;
+  transition: 0.2s;
+}
+.next-btn{
+  background-color: red;
+  padding: 0.5rem;
+  width: 2rem;
+  border-radius: 100px;
+  border: none;
+  color: white;
+  position: absolute;
+  transform: translate(27rem,50%);
+  z-index: 3;
+  transition: 0.2s;
+}
+.prev-btn:hover, .next-btn:hover{
+  background-color: purple;
+  transition: 0.2s;
+}
+/* FOOTER */
+footer{
+  padding: 2rem;
+}
+.arrow-bar-footer{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  background-color: #f6f9fd;
+  width:40rem;
+  border-radius: 10px;
+  padding: 0.5rem;
+  height: 4rem;
+  border: 1px solid rgb(128, 124, 124);
+  cursor: pointer;
+}
+.arrow-bar-footer > p a, a:visited, a:active{
+  color: black;
+}
+.would{
+  padding-top: 1rem;
+}
+.number{
+  padding-top: 2rem;
+ 
+}
+.number a{
+  text-decoration: none;
+  color: black;
+}
+.footer-con-last{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  align-items: center;
+}
+.footer-logo-con img{
+  width: 7rem;
+}
+.footer-email-con > p{
+  padding-bottom: 1rem;
+}
+.footer-email-con > p a{
+  text-decoration: none;
+  color: black;
+  
+}
+.subscription-con{
+  width: 15rem;
+  height: 3rem;
+  width: 20rem;
+  margin-top: 2rem;
+}
+.subscription-con > p{
+  margin-bottom: 0.5rem;
+}
+.subscription-con input{
+  border: none;
+  background-color: transparent;
+}
+
+
+.subscription-con > button{
+  border-radius: 20px;
+  height: inherit;
+  width: 80%;
+  background-color: red;
+  border: none;
+  color: white;
+ 
+}
+.subscription-con > button a, .subscription-con > button a:active, .subscription-con > button a:visited{
+  color: white;
 }
