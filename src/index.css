@@ -412,6 +412,7 @@ nav{
 .grid-element2-btn, .grid-element4-btn{
   background-color: rgb(128, 11, 128);
 }
+
 .grid-element2-btn a, .grid-element4-btn a{
   color: white;
 }
@@ -443,8 +444,11 @@ nav{
   top: 10px;
 }
 .label-4{
-  top: 16px;
+  top: 7px;
   background-color: purple;
+  transform: rotate(20deg);
+  padding-left: 1rem;
+  
   
 }
 

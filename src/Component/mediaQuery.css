@@ -45,6 +45,22 @@
         font-size: 1rem;
       }
 }
+@media (max-width:1255px) {
+    .tech-enthusiast{
+        left: 21rem;
+        transform: rotate(-28deg);
+       
+      
+      }
+}
+@media (max-width:1249px) {
+    .tech-enthusiast{
+        left: 21rem;
+        transform: rotate(-25deg);
+       
+      
+      }
+}
 @media (max-width:1235px) {
     .grid-gen-con{
         grid-template-columns: auto 45% auto;
